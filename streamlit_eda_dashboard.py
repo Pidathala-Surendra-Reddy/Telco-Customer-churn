@@ -17,7 +17,7 @@ def load_data(file_path):
     return df
 
 # Provide your CSV path here
-df = load_data("/Users/suri/Downloads/group2_dataset.csv")
+df = load_data("https://raw.githubusercontent.com/Pidathala-Surendra-Reddy/Telco-Customer-churn/refs/heads/main/group2_dataset.csv")
 
 st.subheader("Churn Distribution")
 churn_counts = df['Churn'].value_counts()
